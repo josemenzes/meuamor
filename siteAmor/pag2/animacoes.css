@@ -1,0 +1,178 @@
+
+@keyframes aparecer {
+    from {
+        transform: scale(0.2); top: 55%; opacity: 0;
+    }
+
+    to {
+        transform: scale(1); opacity: 1;
+    }
+}
+
+@keyframes moverLetra {
+    0%, 100% {
+        transform: translate(0, -2%) rotate(-0.2deg);
+    }
+
+    25% {
+        transform: translate(2%, 0) rotate(0.2deg);
+
+    }
+
+    45% {
+        transform: translate(0, -2%) rotate(-0.2deg);
+
+    }
+
+    75% {
+        transform: translate(2%, 0) rotate(0.2deg);
+
+    }
+    
+}
+
+@keyframes moverTxt {
+    0%, 100% {
+        transform: translate(0, -2%) rotate(-0.2deg) scale(-1);
+    }
+
+    25% {
+        transform: translate(2%, 0) rotate(0.2deg) scale(-1);
+
+    }
+
+    45% {
+        transform: translate(0, -2%) rotate(-0.2deg) scale(-1);
+
+    }
+
+    75% {
+        transform: translate(2%, 0) rotate(0.2deg) scale(-1);
+
+    }
+    
+}
+
+@keyframes mover {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+    
+}
+
+#ceu {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+
+  display: none;
+}
+
+.nuvem {
+  position: absolute;
+  font-size: 40px;
+  opacity: 0.1;
+  animation: flutuar linear infinite;
+}
+
+.n1 {
+  top: 10%;
+  animation-duration: 20s;
+}
+
+.n2 {
+  top: 30%;
+  font-size: 60px;
+  animation-duration: 27s;
+}
+
+.n3 {
+  top: 20%;
+  font-size: 30px;
+  animation-duration: 15s;
+}
+
+.n4 {
+    top: 40%;
+    font-size: 50px;
+    animation-duration: 20s;
+}
+
+.n5 {
+    top: 50%;
+    font-size: 40px;
+    animation-duration: 24s;
+}
+.n6 {
+    top: 60%;
+    font-size: 15px;
+    animation-duration: 14s;
+}
+.n7 {
+    top: 70%;
+    font-size: 25px;
+    animation-duration: 17s;
+}
+.n8 {
+    top: 80%;
+    font-size: 28px;
+    animation-duration: 20s;
+}
+.n9 {
+    top: 90%;
+    font-size: 36px;
+    animation-duration: 18s;
+}
+.n10 {
+    top: 100%;
+    font-size: 20px;
+    animation-duration: 15s;
+}
+
+
+@keyframes flutuar {
+  from {
+    transform: translateX(-100px);
+  }
+
+  to {
+    transform: translateX(calc(100vw + 150px));
+  }
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: radial-gradient(rgb(64, 11, 88) 0, rgb(12, 11, 43) 100%);
+  opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(92, 14, 116);
+  border-radius: 20px;
+  border: 2px solid #ffe6f0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff1f8f;
+}
+
+#title, h2, #roleBaixo, #boxCima, #boxBaixo, #music {
+  animation: moverLetra 5s ease-in-out infinite;
+}
+
+#textVirado {
+  animation: moverTxt 5s ease-in-out infinite;
+
+}
+
+#afterClick, #time {
+  animation: aparecer 0.7s ease-in-out ;
+}
