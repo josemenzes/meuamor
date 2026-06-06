@@ -67,7 +67,8 @@ h2 {
   gap: 18px;
   top: 90%;
 
-  color: rgba(218, 158, 196, 0.281);
+  color: rgb(218, 158, 196);
+  opacity: 0.5;
 }
 
 #textRB {
