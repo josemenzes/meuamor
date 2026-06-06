@@ -15,7 +15,6 @@
 }
 
 #heartInicio {
-
     
     color: white;
     text-shadow: rgb(204, 43, 215) 1px 1px 70px;
@@ -26,7 +25,6 @@
     transform: scale(1);
     transition: transform 0.5S;
 
-    
 }
 
 #heartInicio:hover {
@@ -41,7 +39,6 @@
 }
 
 #textStart {
-    /* width: 900px; */
     text-align: center;
 
     font-weight: 300;
@@ -49,6 +46,4 @@
     text-shadow: rgb(204, 43, 215) 1px 1px 70px;
     color: rgb(168, 154, 168);
     text-wrap: wrap;
-    /* line-height: 12rem; */
-
 }
