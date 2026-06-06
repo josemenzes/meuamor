@@ -6,7 +6,7 @@
 
 }
 
-h1, h2, p, span {
+h1, h2, p, span, strong {
     pointer-events: none;
     margin: 0;
 }
@@ -25,15 +25,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    position: relative;
     margin: 0;
-    min-height: 100vh;
     overflow-y: hidden;
     background-image: radial-gradient(rgb(9, 24, 43) 0, rgb(8, 3, 10) 100%);
     box-sizing: border-box;
     
     transition: background-image 0.5s;
 }
-
-
