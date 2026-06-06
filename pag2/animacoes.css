@@ -1,11 +1,11 @@
 
 @keyframes aparecer {
     from {
-        transform: scale(0.2); top: 55%; opacity: 0;
+        transform: scale(0.2); opacity: 0;
     }
 
     to {
-        transform: scale(1); opacity: 1;
+        transform: scale(1); opacity: 10.3
     }
 }
 
@@ -26,6 +26,28 @@
 
     75% {
         transform: translate(2%, 0) rotate(0.2deg);
+
+    }
+    
+}
+
+@keyframes moverFoto {
+    0%, 100% {
+        transform: translate(0, -0.3%) rotate(-0.2deg);
+    }
+
+    25% {
+        transform: translate(0.3%, 0) rotate(0.2deg);
+
+    }
+
+    45% {
+        transform: translate(0, -0.3%) rotate(-0.2deg);
+
+    }
+
+    75% {
+        transform: translate(0.3%, 0) rotate(0.2deg);
 
     }
     
@@ -164,15 +186,19 @@
   background: #ff1f8f;
 }
 
-#title, h2, #roleBaixo, #boxCima, #boxBaixo, #music {
-  animation: moverLetra 5s ease-in-out infinite;
+#title, h2, #roleBaixo, #boxCima, #boxBaixo, #time > p:nth-child(1), #textVirado, #carta, #memorias > p{
+  animation: moverLetra 6s ease-in-out infinite;
 }
 
-#textVirado {
-  animation: moverTxt 5s ease-in-out infinite;
 
-}
-
-#afterClick, #time {
+#afterClick, #time{
   animation: aparecer 0.7s ease-in-out ;
+}
+
+#music {
+    animation: aparecer 0.7s ease-in-out, moverLetra 6s ease-in-out infinite ;
+}
+
+#imagens {
+    animation: moverFoto 6s ease-in-out infinite;
 }
