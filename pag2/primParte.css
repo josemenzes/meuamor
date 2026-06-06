@@ -67,8 +67,7 @@ h2 {
   gap: 18px;
   top: 90%;
 
-  color: transparent;
-  -webkit-text-stroke: 1px rgba(248, 161, 216, 0.726);
+  color: rgba(218, 158, 196, 0.281);
 }
 
 #textRB {
