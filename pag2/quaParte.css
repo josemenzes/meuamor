@@ -1,0 +1,109 @@
+#memorias {
+    position: relative;
+    display: none;
+    width: 1500px;
+    height:max-content;
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+#memorias > p {
+    font-family: 'Mermaid1001', sans-serif;
+    color: white;
+    font-size: 9rem;
+    
+}
+
+#imagens {
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+    width: 100%;
+    height: max-content;
+}
+
+#imagens .img {
+    transform: scale(1);
+    transition: transform 0.5s;
+
+}
+
+#imagens .img:hover {
+    transform: scale(1.02);
+}
+
+
+
+img {
+    border-radius: 20px;
+}
+
+#imagens .img {
+    margin-top: 70px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+    background-color: rgba(2, 10, 19, 0.336);
+    width: max-content;
+    padding: 10% 2% 2% 2%;
+    outline: rgba(12, 59, 112, 0.336) 1px;
+    box-shadow: rgba(95, 47, 92, 0.938) 1px 1px 50px;
+    border-radius: 60px 60px 20px 20px;
+}
+
+#imagens .img.\31, .img.\33, .img.\35, .img.\37 {
+    margin-right: 56%;
+    justify-self: end;
+}
+
+#imagens .img.\32, .img.\34, .img.\36{
+    margin-left: 56%;
+    justify-self: flex-start;
+}
+
+#imagens .img p {
+    font-family: 'Quick Beach', sans-serif;
+    top: 1%;
+    position: absolute;
+    font-size: 4rem;
+    line-height: 7rem;
+    margin-right: 1%;
+    color: rgb(172, 83, 166);
+    text-align: center;
+}
+
+#imagens .img span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: rgb(207, 189, 206);
+    font-size: 2.6rem;
+    background-color: rgba(107, 47, 103, 0.336);
+    box-shadow: rgb(224, 51, 212) 1px 1px 5px;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+
+#linha {
+    top: 3.7%;
+    justify-self: center;
+    position: absolute;
+    width: 5px;
+    height: 96%;
+    background-image: linear-gradient(rgba(19, 40, 63, 0.315) 0, rgb(141, 25, 133) 35%, rgba(138, 24, 130, 0.582) 50%, rgba(19, 40, 63, 0.315) 100%);
+    
+}
+
+#ponta {
+    left: 50%;
+    top: 99.3%;
+    transform: translateX(-50%);
+    color: rgb(8, 35, 65);
+    position: absolute;
+    font-size: 5rem;
+}
+

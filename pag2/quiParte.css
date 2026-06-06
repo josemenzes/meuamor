@@ -1,0 +1,58 @@
+#carta {
+    display: none;
+    margin-top: 30px;
+    width: 900px;
+    height: max-content;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#textCarta {
+    
+    background-color: rgba(79, 4, 114, 0.075);
+    box-shadow: rgba(132, 31, 179, 0.616) 1px 1px 30px;
+    border-radius: 40px;
+    padding: 50px;
+    
+}
+
+#textCarta p {
+    text-align: justify;
+    color: white;
+    font-size: 3rem;
+    
+    height: max-content;
+    margin-bottom: 3rem;
+}
+
+#textCarta p:nth-child(7) {
+    margin-bottom: 0;
+}
+
+#carta > p:nth-child(1) {
+    color: white;
+    font-size: 8rem;
+    font-family: 'Mermaid1001', sans-serif;
+}
+
+#carta strong {
+    font-size: 3rem;
+    color: rgba(165, 30, 228, 0.795);
+}
+
+footer {
+    display: none;
+    text-align: center;
+    padding-top: 40px;
+    width: 100%;
+    height: 2px;
+    border-top: solid rgba(132, 31, 179, 0.616)  2px;
+    margin-bottom: 70px;
+}
+
+footer p {
+    font-style: italic;
+    color: white;
+    font-size: 2rem;
+}
