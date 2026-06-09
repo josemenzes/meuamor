@@ -1,3 +1,4 @@
+
 const body = document.body
 const heart = document.getElementById('heartInicio')
 const textStart = document.getElementById('textStart')
@@ -22,7 +23,7 @@ const botValue = document.getElementById('botValue')
 const time = document.getElementById('time')
 const timeP = document.getElementById('timeP')
 
-const h2 = document.getElementsByTagName('h2')[0]
+const h2 = document.getElementsByTagName('h2')[1]
 const ceu = document.getElementById('ceu')
 
 const music = document.getElementById('music')
@@ -42,7 +43,7 @@ const js = document.getElementById('js')
 
 heart.onclick = function() {
     body.style.overflowY = 'scroll'
-    body.style.backgroundImage = 'radial-gradient(rgb(19, 51, 88) 0, rgb(8, 3, 10) 100%)'
+    body.style.backgroundImage = 'radial-gradient( #864814 0,  #1a0303 100%)'
     body.style.minHeight = 'max-content'
     body.style.gap = '80px'
     start.style.display = 'none'
@@ -59,7 +60,6 @@ heart.onclick = function() {
 
     title.innerHTML = `Para a Ingridy.`
 
-    h2.innerHTML = '(mais conhecida como amor da minha vida)'
 
     roleBaixo.style.display = 'flex'
     textRB.innerHTML = 'role para baixo'
@@ -80,7 +80,9 @@ btn.onclick = function() {
     spotify.style.animation = 'aparecer 1.5s ease-in-out'
 }
 
+
 js.onclick = function(){
+        heartAfter.style.animation = 'none'
         title.style.animation = 'none'
         h2.style.animation = 'none'
         roleBaixo.style.animation = 'none'
