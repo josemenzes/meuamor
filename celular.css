@@ -1,0 +1,142 @@
+
+@media screen and (max-width: 600px){
+    
+    body {
+        display: flex;
+        background-color: rgb(7, 7, 36);
+        overflow: hidden;
+        min-height: 100vh;
+        width: 100%;
+
+    }
+
+    #titleCell {
+        font-size: 2.7rem;
+        font-family: 'Quick Beach', sans-serif;
+        font-weight: 300;
+        color: #EFA000;
+    }
+
+    #google {
+        font-size: 1.6rem;
+        font-weight: 300;
+        color: white;
+    }
+
+
+    #cell {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+
+        min-height: 100vh;
+        align-content: center;
+    }
+
+    #zap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        gap: 7px;
+        margin-top: 20px;
+        color: #28d869;
+        font-size: 1.7rem;
+        padding: 10px 20px;
+
+        background-color: rgb(9, 66, 24);
+        border-radius: 50px;
+    }
+
+    #zapzap {
+        color: white;
+        font-size: 1.3rem;
+
+        
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #start {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+     body {
+        display: flex;
+        background-color: rgb(7, 7, 36);
+        overflow: hidden;
+        min-height: 100vh;
+        width: 100%;
+
+    }
+
+    #titleCell {
+        font-size: 4rem;
+        font-family: 'Quick Beach', sans-serif;
+        font-weight: 300;
+        color: #EFA000;
+    }
+
+    #google {
+        font-size: 2.3rem;
+        font-weight: 300;
+        color: white;
+    }
+
+
+    #cell {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+
+        min-height: 100vh;
+        align-content: center;
+    }
+
+    #zap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        gap: 7px;
+        margin-top: 20px;
+        color: #28d869;
+        font-size: 2rem;
+        padding: 10px 20px;
+
+        background-color: rgb(9, 66, 24);
+
+        border-radius: 50px;
+    }
+
+    #zapzap {
+        color: white;
+        font-size: 1.6rem;
+
+        
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #start {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1001px) {
+    #cell {
+        display: none;
+    }
+}
+
