@@ -14,10 +14,10 @@
 #time p:nth-child(1) {
   font-family: 'Quick Beach', sans-serif;
   font-weight: 400;
-  color: rgba(161, 87, 156, 0.938);
+  color: #EFA000;
   font-size: 5rem;
   padding: 10px;
-  text-shadow: rgba(95, 47, 92, 0.938) 1px 1px 30px;
+  text-shadow: #96680c 1px 1px 30px;
 
   margin-bottom: 20px;
 }
@@ -38,14 +38,14 @@
     border-radius: 60px;
     
     color: white;
-    background-color: rgba(95, 47, 92, 0.336);
-    outline: solid rgba(95, 47, 92, 0.938) 1px;
-    box-shadow: 1px 5px 50px rgba(95, 47, 92, 0.938);
+    background-color: #ef9f0033;
+    outline: solid #ef9f0083 1px;
+    box-shadow: 1px 5px 50px #EFA000;
 
 }
 
 #textVirado:hover, #boxCima:hover, #boxBaixo:hover {
-  text-shadow: rgba(95, 47, 92, 0.938) 1px 1px 50px;
+  text-shadow: #ef9f00ad 1px 1px 50px;
 }
 
 #box {
@@ -68,18 +68,18 @@
     width: max-content;
     padding: 80px 50px;
     height: 50%;
-    background-color: rgba(131, 67, 108, 0.1);
+    background-color: #ef9f0021;
     border-radius: 45%;
 
-    outline: solid rgba(95, 47, 92, 0.938) 1px;
-    box-shadow: 1px 5px 50px rgba(95, 47, 92, 0.938);
+    outline: solid #EFA000 1px;
+    box-shadow: 1px 5px 50px #ef9f00a6;
 }
 
 #topValue, #botValue {
   font-size: 15rem;
   font-family: 'Quick Beach', sans-serif;
 
-  background: radial-gradient(rgb(255, 255, 255) 0, rgb(184, 36, 174) 100%);
+  background: radial-gradient(rgb(255, 254, 184) 0, rgb(190, 120, 40) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -89,5 +89,5 @@
 #textCima, #textBaixo {
   font-family: 'Mermaid1001', sans-serif;
   font-size: 4rem;
-  color: rgba(219, 126, 204, 0.63);
+  color: #ecb23d;
 }
