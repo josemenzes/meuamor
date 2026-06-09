@@ -10,8 +10,8 @@
 
 #textCarta {
     
-    background-color: rgba(79, 4, 114, 0.075);
-    box-shadow: rgba(132, 31, 179, 0.616) 1px 1px 30px;
+    background-color: #ef9f001a;
+    box-shadow: #EFA000 1px 1px 30px;
     border-radius: 40px;
     padding: 50px;
     
@@ -26,7 +26,7 @@
     margin-bottom: 3rem;
 }
 
-#textCarta p:nth-child(7) {
+#textCarta p:nth-child(8) {
     margin-bottom: 0;
 }
 
@@ -38,7 +38,7 @@
 
 #carta strong {
     font-size: 3rem;
-    color: rgba(165, 30, 228, 0.795);
+    color: #61c013f6;
 }
 
 footer {
@@ -47,7 +47,7 @@ footer {
     padding-top: 40px;
     width: 100%;
     height: 2px;
-    border-top: solid rgba(132, 31, 179, 0.616)  2px;
+    border-top: solid #5b9e2494  2px;
     margin-bottom: 70px;
 }
 
