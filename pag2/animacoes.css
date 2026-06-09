@@ -172,21 +172,21 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: radial-gradient(rgb(64, 11, 88) 0, rgb(12, 11, 43) 100%);
+  background: radial-gradient(rgba(224, 148, 6, 0.877) 0, rgba(92, 55, 8, 0.932) 100%);
   opacity: 0;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(92, 14, 116);
+  background: rgba(42, 119, 12, 0.438);
   border-radius: 20px;
   border: 2px solid #ffe6f0;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ff1f8f;
+  background: rgba(59, 180, 11, 0.699);
 }
 
-#title, h2, #roleBaixo, #boxCima, #boxBaixo, #time > p:nth-child(1), #textVirado, #carta, #memorias > p{
+#title, h2, #roleBaixo, #boxCima, #boxBaixo, #time > p:nth-child(1), #textVirado, #carta, #memorias > p, #titleCell, #zap {
   animation: moverLetra 6s ease-in-out infinite;
 }
 
