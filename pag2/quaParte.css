@@ -45,11 +45,11 @@ img {
     position: relative;
     justify-content: center;
 
-    background-color: rgba(2, 10, 19, 0.336);
+    background-color: #5b9e2446;
     width: max-content;
     padding: 10% 2% 2% 2%;
-    outline: rgba(12, 59, 112, 0.336) 1px;
-    box-shadow: rgba(95, 47, 92, 0.938) 1px 1px 50px;
+    outline: #a85d06d3 1px;
+    box-shadow: #a85d06d3 1px 1px 50px;
     border-radius: 60px 60px 20px 20px;
 }
 
@@ -67,20 +67,20 @@ img {
     font-family: 'Quick Beach', sans-serif;
     top: 1%;
     position: absolute;
-    font-size: 4rem;
+    font-size: 3.6rem;
     line-height: 7rem;
     margin-right: 1%;
-    color: rgb(172, 83, 166);
+    color: #EFA000;
     text-align: center;
 }
 
 #imagens .img span {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    color: rgb(207, 189, 206);
+    color: #c9b389;
     font-size: 2.6rem;
-    background-color: rgba(107, 47, 103, 0.336);
-    box-shadow: rgb(224, 51, 212) 1px 1px 5px;
+    background-color: #30210359;
+    box-shadow: #EFA000 1px 1px 5px;
     padding: 5px 20px;
     border-radius: 20px;
 }
@@ -92,16 +92,17 @@ img {
     position: absolute;
     width: 5px;
     height: 96%;
-    background-image: linear-gradient(rgba(19, 40, 63, 0.315) 0, rgb(141, 25, 133) 35%, rgba(138, 24, 130, 0.582) 50%, rgba(19, 40, 63, 0.315) 100%);
+    background-image: linear-gradient(rgba(66, 184, 36, 0.068) 0, rgba(90, 155, 15, 0.774) 35%, rgba(65, 156, 12, 0.514) 50%, rgba(50, 158, 23, 0.288) 100%);
     
 }
 
 #ponta {
     left: 50%;
     top: 99.3%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) rotate(180deg);
     color: rgb(8, 35, 65);
     position: absolute;
     font-size: 5rem;
+
 }
 
