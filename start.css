@@ -29,8 +29,8 @@
 
 #heartInicio:hover {
     transform: scale(1.3);
-    text-shadow: rgb(204, 43, 215) 1px 1px 150px;
-    color: rgb(179, 41, 128);
+    text-shadow: #EFA000 1px 1px 100px;
+    color: #EFA000;
 }
 
 #heartInicio:hover + #textStart {
@@ -44,6 +44,6 @@
     font-weight: 300;
     font-size: 3rem;
     text-shadow: rgb(204, 43, 215) 1px 1px 70px;
-    color: rgb(168, 154, 168);
+    color: #a88e59;
     text-wrap: wrap;
 }
