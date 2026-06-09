@@ -17,7 +17,7 @@
 #heartInicio {
     
     color: white;
-    text-shadow: rgb(204, 43, 215) 1px 1px 70px;
+    text-shadow: #ef9f001a 1px 1px 70px;
     font-size: 40pt;
 
     cursor: pointer;
@@ -43,7 +43,7 @@
 
     font-weight: 300;
     font-size: 3rem;
-    text-shadow: rgb(204, 43, 215) 1px 1px 70px;
+    text-shadow: #ef9f001a 1px 1px 70px;
     color: #a88e59;
     text-wrap: wrap;
 }
