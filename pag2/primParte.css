@@ -15,7 +15,7 @@
   color: white;
   font-size: 1rem;
   font-weight: 300;
-  background-color: rgb(179, 41, 128);
+  background-color: #3F8407;
   border-radius: 10px;
 
   transform: scale(1);
@@ -43,7 +43,7 @@
   font-size: 10rem;
   transition: all ease 0.5s;
   animation: mover 1s ease-in-out infinite alternate;
-  color: rgb(179, 41, 128);
+  color: #EFA000;
 }
 
 #title {
@@ -67,7 +67,7 @@ h2 {
   gap: 18px;
   top: 90%;
 
-  color: rgb(218, 158, 196);
+  color: #a0dd6e;
   opacity: 0.5;
 }
 
@@ -89,6 +89,6 @@ h2 {
     height: 100%;
     
     border-radius: 50%;
-    background-image: radial-gradient(rgba(184, 36, 174, 0.514) 0, rgba(184, 36, 174, 0) 70%, rgba(184, 36, 174, 0.438) 100%);
+    background-image: radial-gradient(rgba(211, 143, 18, 0.514) 0, rgba(184, 95, 36, 0) 70%, rgba(158, 101, 27, 0.438) 100%);
 
 }
