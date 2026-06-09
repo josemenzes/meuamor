@@ -6,8 +6,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-   
-    transform: scale(0.8);
+    margin-top: 70px;
 
 }
 
@@ -90,18 +89,18 @@ img {
 
 
 #linha {
-    top: 2%;
+    top: 3.7%;
     justify-self: center;
     position: absolute;
     width: 5px;
-    height: 98%;
+    height: 96%;
     background-image: linear-gradient(rgba(66, 184, 36, 0.068) 0, rgba(90, 155, 15, 0.774) 35%, rgba(65, 156, 12, 0.514) 50%, rgba(50, 158, 23, 0.288) 100%);
     
 }
 
 #ponta {
     left: 50%;
-    top: 99.1%;
+    top: 99.3%;
     transform: translateX(-50%) rotate(180deg);
     color: rgb(8, 35, 65);
     position: absolute;
