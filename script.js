@@ -53,7 +53,7 @@ heart.onclick = function() {
     textStart.style.display = 'none'
     cell.style.display = 'none'
 
-    footer.style.display = 'unset'
+    footer.style.display = 'flex'
     afterClick.style.display = 'flex'
     time.style.display = 'flex'
     music.style.display = 'flex'
