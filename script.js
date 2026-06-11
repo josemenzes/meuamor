@@ -41,14 +41,17 @@ const carta = document.getElementById('carta')
 const footer = document.getElementsByTagName('footer')[0]
 const js = document.getElementById('js')
 
+const cell = document.getElementById('cell')
+
 heart.onclick = function() {
     body.style.overflowY = 'scroll'
     body.style.backgroundImage = 'radial-gradient( #864814 0,  #1a0303 100%)'
     body.style.minHeight = 'max-content'
-    body.style.gap = '80px'
+    body.style.gap = '20rem'
     start.style.display = 'none'
     heart.style.display = 'none'
     textStart.style.display = 'none'
+    cell.style.display = 'none'
 
     footer.style.display = 'unset'
     afterClick.style.display = 'flex'
@@ -56,7 +59,7 @@ heart.onclick = function() {
     music.style.display = 'flex'
     memorias.style.display = 'flex'
     carta.style.display = 'flex'
-    js.style.display = 'unset'
+    js.style.display = 'flex'
 
     title.innerHTML = `Para a Ingridy.`
 
@@ -68,11 +71,26 @@ heart.onclick = function() {
 
     topValue.innerHTML = '9'
     botValue.innerHTML = '27'
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting){
+                entry.target.classList.add('show')
+            } else {
+                entry.target.classList.remove('show')
+            }
+        })
+    })
+
+    document.querySelectorAll('.reveal').forEach(el => {
+        observer.observe(el)
+    })
+
 }
 
 btn.onclick = function() {
-    music.style.width = '420px'
-    music.style.height = '400px'
+    music.style.width = '42rem'
+    music.style.height = '40rem'
     musicP.style.fontSize = '5rem'
     btn.style.display = 'none'
     nota.style.display = 'none'
