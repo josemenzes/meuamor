@@ -7,7 +7,7 @@
   align-items: center;
   position: relative;
   align-self: center;
-  width: 100vh;
+  width: 100%;
   min-height: 100vh;
 
   animation: aparecer 0.7s ease-in-out ;
