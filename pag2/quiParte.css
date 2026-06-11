@@ -44,6 +44,7 @@
 footer {
     display: none;
     text-align: center;
+    justify-content: center;
     padding: 4rem;
     width: 100%;
     border-top: solid #5b9e2494 0.2rem;
