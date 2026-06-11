@@ -5,8 +5,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 700px;
-  height: 750px;
+  width: max-content;
+  min-height: 750px;
+  gap: 5rem;
 
   border-radius: 15%;
 }
@@ -16,10 +17,9 @@
   font-weight: 400;
   color: #EFA000;
   font-size: 5rem;
-  padding: 10px;
-  text-shadow: #96680c 1px 1px 30px;
+  padding: 1rem;
+  text-shadow: #96680c 0.1rem 0.1rem 2rem;
 
-  margin-bottom: 20px;
 }
 
 #watch {
@@ -30,35 +30,34 @@
     align-self: center;
 
     white-space: nowrap;
-    padding: 20px 50px;
+    padding: 2rem 5rem;
 
-    font-size: 6.5rem;
+    font-size: 5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    border-radius: 60px;
+    border-radius: 6rem;
     
     color: white;
     background-color: #ef9f0033;
     outline: solid #ef9f0083 1px;
-    box-shadow: 1px 5px 50px #EFA000;
+    box-shadow: 0.1rem 0.5rem 4rem #EFA000;
 
 }
 
 #textVirado:hover, #boxCima:hover, #boxBaixo:hover {
-  text-shadow: #ef9f00ad 1px 1px 50px;
+  text-shadow: #ef9f00ad 0.1rem 0.1rem 0.4rem;
 }
 
 #box {
   display: flex;
   flex-direction: row;
-  gap: 100px;
+  gap: 10rem;
 
   height: max-content;
   width: max-content;
   line-height: 0.9;
   text-align: center;
   align-self: center;
-  margin-top: 40px;
   
 }
 
@@ -66,13 +65,13 @@
     align-self: center;
     align-content: center;
     width: max-content;
-    padding: 80px 50px;
+    padding: 8rem 5rem;
     height: 50%;
     background-color: #ef9f0021;
     border-radius: 45%;
 
     outline: solid #EFA000 1px;
-    box-shadow: 1px 5px 50px #ef9f00a6;
+    box-shadow: 0.1rem 0.5rem 4rem #ef9f00a6;
 }
 
 #topValue, #botValue {
