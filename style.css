@@ -32,7 +32,7 @@ body {
     flex-direction: column;
     align-items: center;
     overflow-y: hidden;
-    background-image: radial-gradient(#501f03 0,  #290505 100%);
+    background-image: radial-gradient(#501f03 0,  #110202 100%);
     
     transition: background-image 0.5s;
 }
