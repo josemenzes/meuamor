@@ -1,9 +1,9 @@
 #carta {
     display: none;
-    margin-top: 30px;
-    width: 900px;
+    margin-top: 3rem;
+    max-width: 800px;
     height: max-content;
-    gap: 30px;
+    gap: 3rem;
     flex-direction: column;
     align-items: center;
 }
@@ -11,9 +11,9 @@
 #textCarta {
     
     background-color: #ef9f001a;
-    box-shadow: #EFA000 1px 1px 30px;
-    border-radius: 40px;
-    padding: 50px;
+    box-shadow: #EFA000 0.1rem 0.1rem 3rem;
+    border-radius: 4rem;
+    padding: 5rem;
     
 }
 
@@ -44,11 +44,9 @@
 footer {
     display: none;
     text-align: center;
-    padding-top: 40px;
+    padding: 4rem;
     width: 100%;
-    height: 2px;
-    border-top: solid #5b9e2494  2px;
-    margin-bottom: 70px;
+    border-top: solid #5b9e2494 0.2rem;
 }
 
 footer p {
